@@ -17,13 +17,13 @@ class BrandSeeder extends Seeder
     {
         DB::table('brands')->insert([
             [
-                'name' => 'Bear Brands',
-                'description' => 'Merupakan Susu murni yang berasal dari luar Indonesia .',
+                'name' => 'IKEA',
+                'description' => 'Merupakan merk terkenal di seluruh dunia.',
                 'image' => 'images/bear-brand.jpg'
             ],
             [
-                'name' => 'Snack Chitato',
-                'description' => 'Merupakan Snack terkenal yang berasal dari luar Indonesia .',
+                'name' => 'PRO-DESIGN',
+                'description' => 'Merupakan merk lokal terkenal di Indonesia .',
                 'image' => 'images/chitato.jpg'
             ],
         ]);
